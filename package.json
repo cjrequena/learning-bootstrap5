@@ -1,0 +1,23 @@
+{
+  "name": "learning-bootstrap5",
+  "version": "1.0.0",
+  "description": "Learning Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjrequena/learning-bootstrap5.git"
+  },
+  "author": "Carlos Requena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjrequena/learning-bootstrap5/issues"
+  },
+  "homepage": "https://github.com/cjrequena/learning-bootstrap5#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "lite-server": "^2.6.1"
+  }
+}
