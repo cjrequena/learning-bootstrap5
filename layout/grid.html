@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap 5</title>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../css/zenburn.css">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/zenburn.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <style type="text/css">
+      .row {
+        background-color: #f8f9fa;
+        outline: 1px solid white;
+      }
+      [class^="col"]:not(.collapse) {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        background-color: #6c757d;
+        color: white;
+        border: 1px solid white;
+      }
+    </style>
   </head>
   <body>
     <main>
@@ -23,9 +36,11 @@
               </div>
             </div>
           </div>
-          <div class="">
-            <h2 class="component display-4">Grid</h2>
-            <hr />
+          <!-- -->
+          <div class="container">
+            <br>
+            <h2 class="component display-4"><a href="https://getbootstrap.com/docs/5.0/layout/grid/">Grid</a></h2>
+            <hr/>
 
             <div class="code-example mb-5">
               <div class="container">
